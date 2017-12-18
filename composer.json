@@ -1,0 +1,20 @@
+{
+    "name": "openinvoices/openinvoices-settings",
+    "description": "Settings module for OpenInvoices",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "invoice",
+        "gs"
+    ],
+    "homepage": "https://github.com/OpenInvoices/openinvoices-settings",
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "zendframework/zend-mvc": "^3.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenInvoices\\Settings\\": "src/"
+        }
+    }
+}
